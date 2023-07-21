@@ -621,7 +621,7 @@
                 <div class="footer-bottom">
                     <p class="footer-txt">Subscribe</p>
                     <form class="footer-form">
-                        <label aria-label="email">
+                        <label aria-label="email" class="label-footer">
                         <input 
                         type="email" 
                         name="footer-email" 
@@ -650,16 +650,16 @@
            <p class="modal-title">Leave your contacts and we will call you back</p>
            <form>
             <div class="modal-field">
-                <label for="input-name" 
+                <label for="user-name" 
                 class="input-label">Name</label>
                 <div class="wrap-input">
                 <input 
                     type="text" 
-                    name="input-name" 
+                    name="user-name" 
                     class="modal-input"
-                    id="input-name"
+                    id="user-name"
                     required/>
-                    <svg class="modal-icon-np" width="18" height="18">
+                    <svg class="modal-icon-np" width="18" height="24">
                         <use href="./images/icons.svg#icon-person-black-18dp-1"></use>
                     </svg></div>
             </div>
@@ -693,19 +693,22 @@
             </div>
 
             <div class="modal-field" >
-                <label for="input-text" 
-                class="input-label">Comment</label>
+                <label for="user-comment" 
+                class="input-label"
+                id="user-comment">Comment</label>
                 <textarea 
-                name="user-text"
+                name="user-comment"
                 id="user-text"
-                class="modal-textarea"></textarea>
+                class="modal-textarea"
+                placeholder="Text input"></textarea>
             </div>
-            <div class="modal-field">
-                <input type="checkbox" name="user-terms"
-                id="user-terms"
+            <div class="modal-field-two">
+                <input type="checkbox" name="user-privacy"
+                id="user-privacy"
+                value="true"
                 class="modal-check visually-hidden" />
-                <label for="user-terms" class="check-text"><span>
-                        <svg class="check-icon" width="16" height="16">
+                <label for="user-privacy" class="check-text"><span class="privacy-span">
+                        <svg class="check-icon" width="10" height="8">
                             <use href="./images/icons.svg#icon-check"></use>
                         </svg>
                     </span>
