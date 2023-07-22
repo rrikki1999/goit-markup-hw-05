@@ -749,8 +749,11 @@ line-height: 1.16;
 letter-spacing: 0.04em;
 }
 
-.modal-field-two{
+.modal-field-text{
     margin-bottom: 16px;
+}
+.modal-field-two{
+    margin-bottom: 24px;
 }
 .modal-textarea{
     width: 100%;
