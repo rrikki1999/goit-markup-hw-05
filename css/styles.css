@@ -804,7 +804,6 @@ margin-bottom: 4px
 }
 
 .check-text{
-    display: flex;
     align-items: center;
     color: var(--lightslate, #8E8F99);
     font-size: 12px;
