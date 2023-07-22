@@ -749,7 +749,7 @@ line-height: 1.16;
 letter-spacing: 0.04em;
 }
 
-.modal-field{
+.modal-field-two{
     margin-bottom: 16px;
 }
 .modal-textarea{
@@ -768,9 +768,7 @@ letter-spacing: 0.04em;
     border: 1px solid var(--navyblue-modal, rgba(46, 47, 66, 0.40));
 }
 
-.modal-field-two{
-    margin-bottom: 24px; 
-}
+
 
 .backdrop .is-hidden .modal{
     transform: translate(-50%,-50%) scale(0);
