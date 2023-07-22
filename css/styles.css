@@ -886,10 +886,10 @@ border: 1px solid var(--navyblue-modal, rgba(46, 47, 66, 0.40));
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
 
-.modal-icon-np:hover,
-.modal-icon-np.focus{
+.modal-input:focus + .modal-icon-np{
     fill:var(--accent-color);
 }
+
 .modal-close-button:hover,
 .modal-close-button:focus{
     border: none;
